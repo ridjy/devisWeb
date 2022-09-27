@@ -1,0 +1,155 @@
+html {}
+body {
+#commandeNew .boxPdr,
+#express .boxPdr{
+    margin-left: 20px;
+    width: 510px;
+	height:auto;
+}
+
+.orange_link, .orange_linkf {
+	float: right;
+	color: #fff;
+	background: url(btn_orange.jpg) no-repeat top right;
+	padding: 0 3px 0 0;
+}
+.orange_link span,.orange_linkf span{
+	display: block;
+	float: left;
+	height: 22px;
+	background: url(btn_orange.jpg) no-repeat;
+	padding: 4px 12px 0 12px;
+	font-family: 'Abel', sans-serif;
+	font-size:14px;
+}
+.orange_link:hover,.orange_linkf:hover {
+	text-decoration:none !important;
+}
+.orange_linkf{
+	background: url(btn_orangef.jpg) no-repeat top right;
+	padding-right:28px;
+}
+#commandeNew .affiche_cache,
+#express .affiche_cache{
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+#commandeNew .picto_expli {
+    margin:15px 10px 10px 10px;
+}
+#commandeNew .commandeOptions,
+#express .commandeOptions{
+    /*height:30px;*/
+    padding:10px;
+    margin: 0 0 0 80px;
+    width:420px;
+    height:20px;
+    border-bottom:1px solid #ccc;
+    font-family: 'Droid Sans', sans-serif;
+    font-size:14px;
+   display:none;
+   float:left;
+}
+#commandeNew .commandeOptions label,
+#express .commandeOptions label{
+    display:block;
+    float:left;
+}
+#commandeNew .checkGauche{
+    margin-right:5px;
+}
+.breaker{
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+.breaker10{
+	clear: both;
+	height: 10px;
+	overflow: hidden;
+}
+.breaker20{
+	clear: both;
+	height: 20px;
+	overflow: hidden;
+}
+.souligne
+	{
+		margin:5px 0 5px 0;
+		border-bottom:1px solid #CCC;
+	}
+#commandeNew .separateur {
+   border-bottom:1px solid #ccc;
+   width:312px;
+   margin-left: auto;
+   margin-right:auto;
+}
+
+#commandeNew .separateur_long,
+#express .separateur_long{
+   border-bottom:1px solid #ccc;
+   width:512px;
+   margin-left: auto;
+   margin-right:auto;
+}
+#commandeNew .separateur_20 {
+   border-bottom:1px solid #ccc;
+   width:312px;
+   margin:10px auto 0 auto;
+   clear:both;
+}
+.pages #conteneur {
+	padding: 3px 0 0 0;
+	margin: 0 0 40px 0;
+}
+.pages #conteneur .conteneur_inside {
+	background-color:#fff;
+	padding: 16px 25px 25px 25px;
+	zoom:1;
+}
+.pages #conteneur .conteneur_inside .contenu_onglet {
+	margin: -16px -17px 0 -17px;
+	padding: 16px 17px 0px 17px;
+	background: #fff;
+}
+.pages #conteneur.fond_gris .conteneur_inside {
+	background: #fff;
+}
+.pages #conteneur.sans_fond {
+	background: #fff;
+	margin-top:10px;
+	padding:0px 20px 20px 20px;
+}
+.pages #conteneur.sans_fond .title{
+	padding-left:0px;
+}
+.pages .barre {
+	margin: 0 auto 2px auto;
+}
+.pages #conteneur .col_profil .contenu_onglet {
+	margin: 0;
+	padding: 0px;
+}
+.pages #conteneur .Commande .contenu_onglet {
+	margin: 0;
+	padding: 14px 20px;
+	background: #F8F8F8;
+}
+.pages #conteneur .Commande .contenu_onglet h2{
+	font-size:18px;
+	text-transform: none;
+	margin: 13px 0 15px -8px;
+	float:left;
+	width:100%;
+}
+.pages #conteneur .Commande .contenu_onglet h3 {
+	color: #4f81bd;
+	font-size:16px;
+	padding: 0 0 7px 0;
+	font-weight:normal;
+}
+.pages #conteneur .Commande .contenu_onglet .fieldset_border h3 {
+	padding: 0 0 14px 0;
+	text-transform: none;
+}
